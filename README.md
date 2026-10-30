@@ -1,20 +1,18 @@
-# Atividade Aula 08 - HTML e CSS
+# Atividade Aula 08 – HTML e CSS
 
-Projeto desenvolvido como atividade prática de Desenvolvimento Front-End para Web, com o objetivo de aplicar conceitos de HTML e CSS na construção e estilização de páginas web.
+## Sobre a atividade
 
-## Objetivo
+Esta atividade foi desenvolvida como atividade prática da disciplina de Desenvolvimento Front-End para Web, utilizando HTML5 e CSS3.
 
-Praticar a estruturação de páginas HTML e aprender a utilizar CSS externo para definir a aparência dos elementos de uma página.
-
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
+O objetivo é aplicar conceitos de estruturação de páginas HTML e estilização com CSS externo.
 
 ## Estrutura do projeto
 
+A atividade possui cinco páginas HTML, cada uma com seu respectivo arquivo CSS.
+
 ```text
 Atividade-Aula08/
+│
 ├── html/
 │   ├── primeiro_item.html
 │   ├── segundo_item.html
@@ -23,29 +21,34 @@ Atividade-Aula08/
 │   └── quinto_item.html
 │
 ├── css/
-│   └── style.css
+│   ├── primeiro_item.css
+│   ├── segundo_item.css
+│   ├── terceiro_item.css
+│   ├── quarto_item.css
+│   └── quinto_item.css
 │
 └── README.md
 ```
 
 ## Páginas desenvolvidas
 
-1. **Página inicial:** apresentação do site.
-2. **Sobre o curso:** informações sobre Ciência da Computação.
-3. **Disciplinas:** apresentação de algumas disciplinas do curso.
-4. **Áreas de atuação:** possibilidades profissionais na área de Computação.
-5. **Dicas de estudo:** sugestões para organização e desenvolvimento dos estudos.
+1. **Página inicial:** apresentação inicial da atividade.
+2. **Sobre o curso:** informações sobre o curso de Ciência da Computação.
+3. **Disciplinas:** apresentação das disciplinas do curso.
+4. **Áreas de atuação:** informações sobre possíveis áreas profissionais.
+5. **Dicas de estudo:** sugestões para melhorar a organização dos estudos.
 
-## Estilização com CSS
+## Tecnologias utilizadas
 
-Foi utilizado um arquivo CSS externo (`style.css`), compartilhado pelas cinco páginas HTML, para definir elementos visuais como:
+- HTML5
+- CSS3
 
-- Cores de fundo e dos textos.
-- Cabeçalho e rodapé.
-- Menu de navegação lateral.
-- Área principal de conteúdo.
-- Espaçamentos e alinhamentos.
+## Estilização
+
+Cada página HTML possui um arquivo CSS externo correspondente, responsável pela estilização dos elementos, como cabeçalho, menu lateral, conteúdo principal e rodapé.
 
 ## Autor
 
 Denilson Ferreira de Carvalho Filho
+
+Turma: P2E
